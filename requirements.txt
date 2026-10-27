@@ -1,0 +1,9 @@
+# Python >= 3.9. Exact versions used for the published run are recorded in the
+# manuscript Methods; these pin the minimum majors known to work.
+pymc>=5
+arviz>=0.15
+numpy>=1.24
+pandas>=1.5
+matplotlib>=3.6
+openpyxl>=3.1
+h5netcdf>=1.1   # only needed for the posterior cache (netCDF backend)

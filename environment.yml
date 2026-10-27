@@ -1,0 +1,15 @@
+# Recommended on Windows: conda installs PyMC's compiler toolchain cleanly.
+#   conda env create -f environment.yml
+#   conda activate co-dose-response
+name: co-dose-response
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pymc>=5
+  - arviz>=0.15
+  - numpy>=1.24
+  - pandas>=1.5
+  - matplotlib>=3.6
+  - openpyxl>=3.1
+  - h5netcdf>=1.1
