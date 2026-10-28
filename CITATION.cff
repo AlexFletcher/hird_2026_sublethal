@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite both the paper and this repository."
+title: "Carbon monoxide dose-response analysis"
+abstract: >-
+  Analysis code and data for a hierarchical Bayesian dose-response study of
+  sub-lethal metabolic suppression by carbon monoxide in human brain cells.
+type: software
+authors:
+  - family-names: Hird
+    given-names: Megan
+    affiliation: "Sheffield Hallam University"
+  - family-names: Stafford
+    given-names: Prachi
+    affiliation: "Sheffield Hallam University"
+  - family-names: Fletcher
+    given-names: Alexander G.
+    affiliation: "University of Sheffield"
+    email: a.g.fletcher@sheffield.ac.uk
+  - family-names: Herigstad
+    given-names: Mari
+    affiliation: "Sheffield Hallam University"
+license: [MIT, CC-BY-4.0]   # MIT for the code, CC-BY-4.0 for the data in data/
+version: "1.0.0"
+date-released: "2026-10-27"
+# doi: 10.5281/zenodo.XXXXXXX   # add after archiving a release to Zenodo
+preferred-citation:
+  type: article
+  title: >-
+    Sub-lethal metabolic suppression by carbon monoxide near occupational
+    exposure limits: a hierarchical Bayesian dose-response analysis in human
+    brain cells
+  authors:
+    - family-names: Hird
+      given-names: Megan
+    - family-names: Stafford
+      given-names: Prachi
+    - family-names: Fletcher
+      given-names: Alexander G.
+    - family-names: Herigstad
+      given-names: Mari
+  journal: "Toxicology Research"
+  year: 2026
+  # doi: 10.xxxx/xxxxx            # add on acceptance
